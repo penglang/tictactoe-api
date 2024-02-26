@@ -1,0 +1,28 @@
+{
+  "name": "tictactoe-api-penglang",
+  "version": "1.0.0",
+  "description": "JSON API to tictactoe-agent",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/penglang/tictactoe-api"
+  },
+  "keywords": [
+    "tictactoe",
+    "api"
+  ],
+  "author": "stujo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/penglang/tictactoe-api/issues"
+  },
+  "homepage": "https://github.com/penglang/tictactoe-api#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "tictactoe-agent": "^2.1.0"
+  }
+}
